@@ -32,6 +32,7 @@ public class AssertionSample {
         //how to assert composed customer?
     }
 
+    @Test
     public void partialcompare_customer_birthday_and_order_price()
     {
         Customer actual = customerRepo.getComposedCustomer();
